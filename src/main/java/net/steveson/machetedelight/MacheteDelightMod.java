@@ -45,10 +45,10 @@ public class MacheteDelightMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-//            event.accept(ModItems.IRON_MACHETE);
+            event.accept(ModItems.IRON_MACHETE);
             event.accept(ModItems.GOLDEN_MACHETE);
-//            event.accept(ModItems.DIAMOND_MACHETE);
-//            event.accept(ModItems.NETHERITE_MACHETE);
+            event.accept(ModItems.DIAMOND_MACHETE);
+            event.accept(ModItems.NETHERITE_MACHETE);
         }
     }
 
